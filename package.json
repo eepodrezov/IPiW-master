@@ -35,10 +35,16 @@
   },
   "dependencies": {
     "@gravity-ui/icons": "^2.6.0",
+    "@gravity-ui/navigation": "^1.8.2",
     "@gravity-ui/uikit": "^5.17.0",
     "bem-cn-lite": "^4.1.0",
+    "classnames": "^2.3.2",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.0",
+    "sort-by": "^1.2.0"
   },
   "devDependencies": {
     "@gravity-ui/browserslist-config": "^4.1.0",
@@ -49,10 +55,13 @@
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
     "esbuild-sass-plugin": "^2.16.0",
     "eslint": "^8.53.0",
     "husky": "^8.0.3",
+    "postcss": "^8.4.32",
     "sass": "^1.68.0",
+    "tailwindcss": "^3.4.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.0",
     "vite-plugin-svgr": "^4.2.0"

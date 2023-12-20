@@ -1,0 +1,41 @@
+@import url('./tailwind.css');
+html,
+body,
+#root {
+    height: 100%;
+    min-width: 320px;
+    margin: 0;
+}
+.g-root {
+    --g-font-family-sans: 'Inter', sans-serif;
+
+    --g-text-header-font-weight: 600;
+    --g-text-subheader-font-weight: 600;
+    --g-text-display-font-weight: 600;
+    --g-text-accent-font-weight: 600;
+
+    --g-color-base-brand: #3B3B3B;
+    --g-color-base-brand-hover: #EAEDF0; 
+     --g-color-base-selection: #EAEDF0;
+    --g-color-base-selection-hover: #EAEDF0;
+    --g-color-line-brand: #3B3B3B;
+    --g-color-text-brand: #0F2033; 
+    --g-color-text-brand-contrast: rgb(255, 255 ,255);
+    /* --g-color-text-link: rgb(117, 155, 255); */
+    /* --g-color-text-link-hover: rgb(82, 130, 255); */
+    --g-color-text-danger: #D21B1B;
+    --g-color-base-generic:#0B4281;
+    --g-color-base-generic-hover:#0B3462;
+    --g-color-base-generic-focus:#0B2B50;
+    --g-color-base-generic-accent-disabled:#F5F5F5;
+    --g-color-line-generic:#CED3D5;
+    
+    
+
+    --g-border-radius-xs: 3px;
+    --g-border-radius-s: 5px;
+    --g-border-radius-m: 6px;
+    --g-border-radius-l: 8px;
+    --g-border-radius-xl: 10px;
+    --g-border-radius-2xl: 16px;
+}
