@@ -1,9 +1,9 @@
-import {Wrapper} from '../components/Wrapper';
-import {WidgetView} from '../views/widget-view/widget-view';
+import {Wrapper} from '../src/components/Wrapper';
+import {Main} from '../src/app/Main';
 
 const App = () => (
     <Wrapper>
-        <WidgetView />
+        <Main />
     </Wrapper>
 );
 
